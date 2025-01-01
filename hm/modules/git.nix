@@ -4,10 +4,6 @@
       enable = true;
       userName = "Soikr";
       userEmail = "Soikr@proton.me";
-      signing = {
-        key = null;
-        signByDefault = true;
-      };
       aliases = {
         cm = "commit";
         co = "checkout";
@@ -41,11 +37,6 @@
           features = "decorations";
         };
       };
-    };
-
-    gh = {
-      enable = true;
-      settings.git_protocol = "ssh";
     };
   };
 }

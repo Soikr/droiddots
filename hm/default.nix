@@ -12,8 +12,12 @@
     fd.enable = true;
     tealdeer.enable = true;
     fastfetch.enable = true;
-
+    gh.enable = true;
     gpg.enable = true;
+  };
+
+  services = {
+    gpg-agent.enable = true;
   };
 
   home.stateVersion = "24.11";

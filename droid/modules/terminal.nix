@@ -2,23 +2,31 @@
   terminal = {
     colors = {
       "foreground" = "#ebdbb2";
-      "background" = "#282828";
-      "color0" = "#665c54";
-      "color1" = "#fb4934";
-      "color10" = "#b8bb26";
-      "color11" = "#fabd2f";
-      "color12" = "#83a598";
+      "background" = "#141617";
+
+      "color0" = "#1d2025";
+      "color8" = "#504945";
+
+      "color1" = "#c14a4a";
+      "color9" = "#ea6962";
+
+      "color2" = "#6c782e";
+      "color10" = "#a9b665";
+
+      "color3" = "#b47109";
+      "color11" = "#d8a657";
+
+      "color4" = "#45707a";
+      "color12" = "#7daea3";
+
+      "color5" = "#945e80";
       "color13" = "#d3869b";
-      "color14" = "#8ec07c";
-      "color15" = "#fbf1c7";
-      "color2" = "#b8bb26";
-      "color3" = "#fabd2f";
-      "color4" = "#83a598";
-      "color5" = "#d3869b";
-      "color6" = "#8ec07c";
-      "color7" = "#ebdbb2";
-      "color8" = "#665c54";
-      "color9" = "#fb4934";
+
+      "color6" = "#6c782e";
+      "color14" = "#89b482";
+
+      "color7" = "#d4be98";
+      "color15" = "#ddc7a1";
     };
 
     font = "${pkgs.nerd-fonts.jetbrains-mono}/share/fonts/truetype/NerdFonts/JetBrainsMono/JetBrainsMonoNerdFont-Regular.ttf";
